@@ -1,5 +1,6 @@
 [projectname]:  leetcode-leetcodeCompilation-cpp_java
 [projectauthor]: jng4w
+[linkedin]: xdtn7
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -121,7 +122,7 @@ Output: [0,1]
 [license-shield]: https://img.shields.io/github/license/jng4w/leetcode-leetcodeCompilation-cpp_java.svg?style=for-the-badge
 [license-url]: https://github.com/jng4w/leetcode-leetcodeCompilation-cpp_java/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/jng4w
+[linkedin-url]: https://linkedin.com/in/xdtn7
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
