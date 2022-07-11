@@ -108,7 +108,7 @@ Output: [0,1]
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [projectname]:  leetcode-leetcodeCompilation-cpp_java
 [contributors-shield]: https://img.shields.io/github/contributors/jng4w/leetcode-leetcodeCompilation-cpp_java.svg?style=for-the-badge
-[contributors-url]: /graphs/contributors
+[contributors-url]: ../../graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/jng4w/Best-README-Template.svg?style=for-the-badge
 [forks-url]: /network/members
 [stars-shield]: https://img.shields.io/github/stars/jng4w/Best-README-Template.svg?style=for-the-badge
