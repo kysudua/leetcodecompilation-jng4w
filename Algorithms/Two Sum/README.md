@@ -1,3 +1,6 @@
+[projectname]:  leetcode-leetcodeCompilation-cpp_java
+[projectauthor]: jng4w
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -108,15 +111,15 @@ Output: [0,1]
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [projectname]:  leetcode-leetcodeCompilation-cpp_java
 [contributors-shield]: https://img.shields.io/github/contributors/jng4w/leetcode-leetcodeCompilation-cpp_java.svg?style=for-the-badge
-[contributors-url]: ../../graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jng4w/Best-README-Template.svg?style=for-the-badge
-[forks-url]: /network/members
-[stars-shield]: https://img.shields.io/github/stars/jng4w/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/jng4w/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jng4w/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/jng4w/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/jng4w/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/jng4w/Best-README-Template/blob/master/LICENSE.txt
+[contributors-url]: https://github.com/jng4w/leetcode-leetcodeCompilation-cpp_java/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jng4w/leetcode-leetcodeCompilation-cpp_java.svg?style=for-the-badge
+[forks-url]: https://github.com/jng4w/leetcode-leetcodeCompilation-cpp_java/network/members
+[stars-shield]: https://img.shields.io/github/stars/jng4w/leetcode-leetcodeCompilation-cpp_java.svg?style=for-the-badge
+[stars-url]: https://github.com/jng4w/leetcode-leetcodeCompilation-cpp_java/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jng4w/leetcode-leetcodeCompilation-cpp_java.svg?style=for-the-badge
+[issues-url]: https://github.com/jng4w/leetcode-leetcodeCompilation-cpp_java/issues
+[license-shield]: https://img.shields.io/github/license/jng4w/leetcode-leetcodeCompilation-cpp_java.svg?style=for-the-badge
+[license-url]: https://github.com/jng4w/leetcode-leetcodeCompilation-cpp_java/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jng4w
 [product-screenshot]: images/screenshot.png
