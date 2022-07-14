@@ -1,6 +1,6 @@
 #include "../resources/main.h"
 
-class Best {
+class Best{
 public:
     int lengthOfLastWord(string s) {
         //end point searching
