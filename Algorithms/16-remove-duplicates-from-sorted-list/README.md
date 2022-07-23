@@ -24,7 +24,7 @@
     <img src="../../resources/jng4w.jpg" alt="Logo" >
   </a>
 
-  <h3 align="center">Problem: Climbing Stairs</h3>
+  <h3 align="center">Problem: Remove Duplicates from Sorted List</h3>
 
   <p align="center">
     Solution for a problem in a Leetcode problem compilation.
