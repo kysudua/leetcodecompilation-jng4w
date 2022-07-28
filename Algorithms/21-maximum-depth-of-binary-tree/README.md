@@ -24,7 +24,7 @@
     <img src="../../resources/jng4w.jpg" alt="Logo" >
   </a>
 
-  <h3 align="center">Problem: Same tree</h3>
+  <h3 align="center">Problem: Maximum Depth of Binary Tree</h3>
 
   <p align="center">
     Solution for a problem in a Leetcode problem compilation.
@@ -63,40 +63,34 @@
 | **Level**| *Easy* |
 | **Language** | *C* |
 | **Status** | *Accepted* |
-| **Runtime** | * 0 ms ~ 100.00%* |
-| **Memory Usage**| *5.6 MB ~  90.70%* |
+| **Runtime** | * 3 ms ~ 95.47%* |
+| **Memory Usage**| *8 MB ~  39.95%* |
 
 
 # Problem
-Given the roots of two binary trees p and q, write a function to check if they are the same or not.
+Given the root of a binary tree, return its maximum depth.
 
-Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
  
 
 Example 1:
 
 ```
-Input: p = [1,2,3], q = [1,2,3]
-Output: true
+Input: root = [3,9,20,null,null,15,7]
+Output: 3
 ```
 Example 2:
-
 ```
-Input: p = [1,2], q = [1,null,2]
-Output: false
-```
-Example 3:
-
-```
-Input: p = [1,2,1], q = [1,1,2]
-Output: false
+Input: root = [1,null,2]
+Output: 2
  ```
 
 *Constraints:*
 
-* `The number of nodes in both trees is in the range [0, 100].`
-* `-104 <= Node.val <= 104`
+- `The number of nodes in the tree is in the range [0, 104].`
+- `-100 <= Node.val <= 100`
+
 # Contact
 *Duy Tinh Nguyen - [@xdtn7](https://www.linkedin.com/in/xdtn7/) - duytinhnguyenforwork@gmail.com*
 

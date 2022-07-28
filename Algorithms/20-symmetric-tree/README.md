@@ -24,7 +24,7 @@
     <img src="../../resources/jng4w.jpg" alt="Logo" >
   </a>
 
-  <h3 align="center">Problem: Same tree</h3>
+  <h3 align="center">Problem: Symmetric Tree</h3>
 
   <p align="center">
     Solution for a problem in a Leetcode problem compilation.
@@ -64,39 +64,33 @@
 | **Language** | *C* |
 | **Status** | *Accepted* |
 | **Runtime** | * 0 ms ~ 100.00%* |
-| **Memory Usage**| *5.6 MB ~  90.70%* |
+| **Memory Usage**| *6.9 MB ~  47.01%* |
 
 
 # Problem
-Given the roots of two binary trees p and q, write a function to check if they are the same or not.
-
-Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
+Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
 
  
 
 Example 1:
 
-```
-Input: p = [1,2,3], q = [1,2,3]
+
+Input: root = [1,2,2,3,4,4,3]
 Output: true
-```
 Example 2:
 
-```
-Input: p = [1,2], q = [1,null,2]
+
+Input: root = [1,2,2,null,3,null,3]
 Output: false
-```
-Example 3:
+ 
 
-```
-Input: p = [1,2,1], q = [1,1,2]
-Output: false
- ```
+Constraints:
 
-*Constraints:*
+The number of nodes in the tree is in the range [1, 1000].
+-100 <= Node.val <= 100
+ 
 
-* `The number of nodes in both trees is in the range [0, 100].`
-* `-104 <= Node.val <= 104`
+Follow up: Could you solve it both recursively and iteratively?
 # Contact
 *Duy Tinh Nguyen - [@xdtn7](https://www.linkedin.com/in/xdtn7/) - duytinhnguyenforwork@gmail.com*
 
