@@ -24,7 +24,7 @@
     <img src="../../resources/jng4w.jpg" alt="Logo" >
   </a>
 
-  <h3 align="center">Problem: Path Sum</h3>
+  <h3 align="center">Problem: Pascal's Triangle</h3>
 
   <p align="center">
     Solution for a problem in a Leetcode problem compilation.
@@ -63,46 +63,31 @@
 | **Level**| *Easy* |
 | **Language** | *Golang* |
 | **Status** | *Accepted* |
-| **Runtime** | * 4 ms ~ 83.85%* |
-| **Memory Usage**| *4.5 MB ~  95.83%* |
+| **Runtime** | * 2 ms ~ 42.58%* |
+| **Memory Usage**| *2.1 MB ~  57.57%* |
 
 
 # Problem
-Given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.
+Given an integer numRows, return the first numRows of Pascal's triangle.
 
-A leaf is a node with no children.
+In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+
 
  
 
 Example 1:
 
-```
-Input: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
-Output: true
-Explanation: The root-to-leaf path with the target sum is shown.
-```
+Input: numRows = 5
+Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 Example 2:
 
-```
-Input: root = [1,2,3], targetSum = 5
-Output: false
-Explanation: There two root-to-leaf paths in the tree:
-(1 --> 2): The sum is 3.
-(1 --> 3): The sum is 4.
-There is no root-to-leaf path with sum = 5.
-```
-Example 3:
-```
-Input: root = [], targetSum = 0
-Output: false
-Explanation: Since the tree is empty, there are no root-to-leaf paths.
- ```
+Input: numRows = 1
+Output: [[1]]
+ 
 
-*Constraints:*
+Constraints:
 
-- `The number of nodes in the tree is in the range [0, 5000].`
-- `-1000 <= Node.val <= 1000`
-- `-1000 <= targetSum <= 1000`
+1 <= numRows <= 30
 
 # Contact
 *Duy Tinh Nguyen - [@xdtn7](https://www.linkedin.com/in/xdtn7/) - duytinhnguyenforwork@gmail.com*
