@@ -24,7 +24,7 @@
     <img src="../../resources/jng4w.jpg" alt="Logo" >
   </a>
 
-  <h3 align="center">Problem: Pascal's Triangle</h3>
+  <h3 align="center">Problem: First Bad Version</h3>
 
   <p align="center">
     Solution for a problem in a Leetcode problem compilation.
@@ -61,33 +61,39 @@
 |  |  |
 | :--- | :--- |
 | **Level**| *Easy* |
-| **Language** | *Golang* |
+| **Language** | *C* |
 | **Status** | *Accepted* |
-| **Runtime** | * 2 ms ~ 42.58%* |
-| **Memory Usage**| *2.1 MB ~  57.57%* |
+| **Runtime** | * 0 ms ~ 100.00%* |
+| **Memory Usage**| *5.5 MB ~  44.22%* |
 
 
 # Problem
-Given an integer numRows, return the first numRows of Pascal's triangle.
+You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
 
-In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+Suppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.
 
+You are given an API bool isBadVersion(version) which returns whether version is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.
 
  
 
 Example 1:
 
-Input: numRows = 5
-Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+Input: n = 5, bad = 4
+Output: 4
+Explanation:
+call isBadVersion(3) -> false
+call isBadVersion(5) -> true
+call isBadVersion(4) -> true
+Then 4 is the first bad version.
 Example 2:
 
-Input: numRows = 1
-Output: [[1]]
+Input: n = 1, bad = 1
+Output: 1
  
 
 Constraints:
 
-1 <= numRows <= 30
+1 <= bad <= n <= 231 - 1
 
 # Contact
 *Duy Tinh Nguyen - [@xdtn7](https://www.linkedin.com/in/xdtn7/) - duytinhnguyenforwork@gmail.com*
