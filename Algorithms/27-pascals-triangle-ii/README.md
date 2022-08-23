@@ -24,7 +24,7 @@
     <img src="../../resources/jng4w.jpg" alt="Logo" >
   </a>
 
-  <h3 align="center">Problem: Add Binary</h3>
+  <h3 align="center">Problem: First Bad Version</h3>
 
   <p align="center">
     Solution for a problem in a Leetcode problem compilation.
@@ -61,33 +61,39 @@
 |  |  |
 | :--- | :--- |
 | **Level**| *Easy* |
-| **Language** | *C++* |
+| **Language** | *C* |
 | **Status** | *Accepted* |
-| **Runtime** | *4 ms ~ 43.62%* |
-| **Memory Usage**| *8.8 MB ~  12.03%* |
+| **Runtime** | * 0 ms ~ 100.00%* |
+| **Memory Usage**| *5.5 MB ~  44.22%* |
 
 
 # Problem
-Given two binary strings a and b, return their sum as a binary string.
+You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
+
+Suppose you have n versions [1, 2, ..., n] and you want to find out the first bad one, which causes all the following ones to be bad.
+
+You are given an API bool isBadVersion(version) which returns whether version is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.
 
  
 
 Example 1:
-```
-Input: a = "11", b = "1"
-Output: "100"
-```
+
+Input: n = 5, bad = 4
+Output: 4
+Explanation:
+call isBadVersion(3) -> false
+call isBadVersion(5) -> true
+call isBadVersion(4) -> true
+Then 4 is the first bad version.
 Example 2:
-```
-Input: a = "1010", b = "1011"
-Output: "10101"
- ```
+
+Input: n = 1, bad = 1
+Output: 1
+ 
 
 Constraints:
 
-* `1 <= a.length, b.length <= 104`
-* `a and b consist only of '0' or '1' characters.`
-* `Each string does not contain leading zeros except for the zero itself.`
+1 <= bad <= n <= 231 - 1
 
 # Contact
 *Duy Tinh Nguyen - [@xdtn7](https://www.linkedin.com/in/xdtn7/) - duytinhnguyenforwork@gmail.com*
